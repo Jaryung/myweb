@@ -1,15 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {Button,Progress} from 'semantic-ui-react'
+import {Button, Comment, Form, Header, Image} from 'semantic-ui-react'
+import dy from "./dy.jpg"
+import human from "./human.jpg"
+import Comments from "./comment.js"
+
+
 function App() {
   return (
     <div>
-    <p> Jaryung </p>
-    <Button Primary> hi! </Button>
-    <Progress percent = {45} indicating/>
+    <p> Jaryung's web </p>
+    <Image src = {dy} size='medium' centered  />
+    <Comments/>
     </div>
-
   );
 }
 
